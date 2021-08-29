@@ -2,7 +2,7 @@ body {
     background-color: #161616;
 
 }
- hr {
+ hr  {
      background-color: #161616;
      border-style: dotted none none none;
      border-color: grey;
@@ -12,10 +12,18 @@ body {
 
  }
 
- h1{
+
+
+
+ #ccheading{
      color: aqua;
      background-color: #161616;
  }
+
+#ccheading:hover{
+    color:#FFF47D;
+}
+
  .contact{
 
     background-color: aquamarine;
@@ -23,4 +31,10 @@ body {
  .header{
      color: black;
      background-color:aquamarine;
+ }
+ .header:hover{
+     color: #000000;
+ }
+ #contacthr{
+   width: auto;
  }
