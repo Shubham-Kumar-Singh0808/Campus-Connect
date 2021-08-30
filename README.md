@@ -7,4 +7,4 @@ Campus Commune is a socio-academic portal for the students/alumni of RVSCET
 Making information easily accesecible to each member of the college.
 
 # Deployment 
-<a href"https://tahasin-raza-khan.github.io/Campus-Commune/">Explore the site</a>
+https://tahasin-raza-khan.github.io/Campus-Commune/ 
