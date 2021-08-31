@@ -1,26 +1,29 @@
 
- hr  {
+  .hr  {
      background-color: #161616;
      border-style: dotted none none none;
      border-color: grey;
      border-width: 2px;
-
+     position: absolute;
      width: 100%;
-     margin-bottom: 0%;
+     top: 68.9px;
 
  }
 body{
     margin: 0px;
+    text-align: center;
 }
 
 
 
- #ccheading{
+ .ccheading{
      color: aqua;
      background-color: #161616;
+    
+     margin: 20px auto 0 auto;
  }
 
-#ccheading:hover{
+.ccheading:hover{
     color:#FFF47D;
 }
 
@@ -31,6 +34,7 @@ body{
  .header{
      color: black;
      background-color:aquamarine;
+     
  }
  .header:hover{
      color: #000000;
@@ -39,22 +43,67 @@ body{
    width: auto;
  }
  .topcontainer{
-    background-color:#161616;
     
-     margin: bottom 0px; ;
-
+    background-color:#161616;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    
+    
+    
+     
 
  }
  .middlecontainer{
       background-color:#93B5C6;
     width: 200px;
     height: 400px;
+    position: absolute;
+    top:80px;
     
- }
+        
+}
 
  .bottomcontainer{
      background-color:#012443;
      width: 200px;
      height: 400px;
+     position: absolute;
+     top: 480px;
+     
+     
+     
+     
+     
+     
+     
+ }
 
+ /*  practice section */
+
+
+ .top{
+  background-color: #93B5C6;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+    
+
+
+ }
+ .middle{
+     background-color: yellow;
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     
+    
+ }
+ .bottom{
+     background-color: red;
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 400px;
+     top: 400px;
  }
