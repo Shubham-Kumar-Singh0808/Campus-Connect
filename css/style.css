@@ -1,109 +1,51 @@
+.logo{
+color:#FFC947;
+ 
 
-  .hr  {
-     background-color: #161616;
-     border-style: dotted none none none;
-     border-color: grey;
-     border-width: 2px;
-     position: absolute;
-     width: 100%;
-     top: 68.9px;
+}
+.logo:hover{
+ color:#F7F6F2;
 
- }
-body{
-    margin: 0px;
-    text-align: center;
+
+}
+h1{
+font-family: 'Ubuntu Condensed',
+sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+
 }
 
-
-
- .ccheading{
-     color: aqua;
-     background-color: #161616;
-    
-     margin: 20px auto 0 auto;
- }
-
-.ccheading:hover{
-    color:#FFF47D;
+#title{
+    background-color: #39A2DB;
 }
-
- .contact{
-
-    background-color: aquamarine;
- }
- .header{
-     color: black;
-     background-color:aquamarine;
-     
- }
- .header:hover{
-     color: #000000;
- }
- #contacthr{
-   width: auto;
- }
- .topcontainer{
-    
-    background-color:#161616;
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    
-    
-    
-     
-
- }
- .middlecontainer{
-      background-color:#93B5C6;
-    width: 200px;
-    height: 400px;
-    position: absolute;
-    top:80px;
-    
-        
+#moto{
+   font-family: 'Roboto',
+   sans-serif;
+    color:#F7F6F2;
 }
+#moto:hover{
+  color: #F7F6F2;
+  font-family: 'Ubuntu',
+  sans-serif;
+  font-family: 'Montserrat',
+  sans-serif;
 
- .bottomcontainer{
-     background-color:#012443;
-     width: 200px;
-     height: 400px;
-     position: absolute;
-     top: 480px;
-     
-     
-     
-     
-     
-     
-     
- }
-
- /*  practice section */
+}
+.container-fluid{
+   padding: 0% 5% ;
 
 
- .top{
-  background-color: #93B5C6;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-    
+}
+p{
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #F7F6F2;
 
-
- }
- .middle{
-     background-color: yellow;
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     
-    
- }
- .bottom{
-     background-color: red;
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 400px;
-     top: 400px;
- }
+}
+p:hover{
+    color: #171010;
+}
