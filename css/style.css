@@ -62,8 +62,8 @@ p:hover{
 }
 
 .nav-item{
-    padding: 0 10px;
-    margin-left: 10px;
+    padding: 0px 10px ;
+    margin-left:70px;
     font-family: "Ubuntu";
 }
 .logo2{
@@ -105,4 +105,7 @@ height: 468.08px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.form-label{
+    color: whitesmoke;
 }
